@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.markings}
+\usepackage{subfiles}
+\usepackage{listings}
+\usepackage{algorithm2e}
+\definecolor{navyblue}{RGB}{14,12,169}
+\definecolor{navyblue2}{RGB}{35,22,109}
+\definecolor{lblue}{RGB}{115,113,234}
+\definecolor{redd}{RGB}{247,49,4}
+
+\title{Pythagorean Theorem}
+\author{1505018}
+\date{June 18, 2018}
+
+\begin{document}
+
+\maketitle
+\newtheorem{theorem}{Theorem}[section]
+\section{Introduction}
+
+In this document, we present the very famous theorem in mathematics: \textit{Pythagorean theorem}, which is stated as follows.
+
+\begin{theorem}[Pythagorean Theorem]
+The square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.
+\end{theorem}
+Numerous mathematicians proposed various proofs to the theorem. The theorem was long known even before the time of Pythagoras. Pythagoras was the first to provide with a sound proof. The proof that Pythagoras gave was by rearrangement. Even the great Albert Einstein also proved the theorem without rearrangement, rather by using dissection. Figure \ref{fig:pythagorean theorem} shows the visual representation of the theorem.
+
+\subfile{fig2.tex}
+\newpage
+\subfile{fig3.tex}
+
+\section{Trigonometric Forms}
+Lots of other forms of the same theorem exist. The most useful, perhaps, are expressed in trigonometric terms, as follows:
+\begin{equation}
+    \sin^2{\theta} + \cos^2{\theta} = 1 
+    \label{eqn:1}
+\end{equation}
+\begin{equation}
+    \sec^2{\theta} - \tan^2{\theta} = 1 
+    \label{eqn:2}
+\end{equation}
+\begin{equation}
+    \mathrm{cosec}^2{\theta} - \cot^2{\theta} = 1 
+    \label{eqn:3}
+\end{equation}
+
+
+\subsection{Representing the First}
+Taking \ref{eqn:1}, we can show them as shown in Figure \ref{fig:pythagorean theorem2}. When we take a point at unit distance from the origin, the $y$ and $x$ co-ordinates become $\sin\theta$ and $\cos\theta$ respectively. Therefore, sum of the squares of the two becomes equal to the square of the unit distance, which of course, is $1$.
+
+\end{document}
