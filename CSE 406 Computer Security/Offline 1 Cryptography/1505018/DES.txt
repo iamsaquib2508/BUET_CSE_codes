@@ -1,0 +1,9 @@
+
+Encrypted: éDÙV¾é´l¾d	†ìl¢
+Decrypted: hello world
+
+Encrypted: ¡Ñr5=.saù'êwíT
+Decrypted: Attack at dawn!
+
+Encrypted: ó!ºÀ9ÿÌ6ÛÍÀk*Ú
+Decrypted: Hello World
