@@ -1,0 +1,240 @@
+# depslib dependency file v1.0
+1464973635 source:g:\project\term project cse 102 swift ball\swift ball.cpp
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"iGraphics.h"
+	"Screen Generator.h"
+
+1464974150 g:\project\term project cse 102 swift ball\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<glaux.h>
+
+1464982914 g:\project\term project cse 102 swift ball\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+
+1464986834 source:j:\term project cse 102 swift ball\swift ball.cpp
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"iGraphics.h"
+	"Screen Generator.h"
+
+1465014726 j:\term project cse 102 swift ball\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
+1465016288 j:\term project cse 102 swift ball\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+
+1465015638 source:j:\term project cse 102 swift ball\imain.cpp
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"iGraphics.h"
+	"Screen Generator.h"
+
+1465205122 source:d:\term project cse 102 swift ball\imain.cpp
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"iGraphics.h"
+	"game/Screen Generator.h"
+	"game/accessories.h"
+
+1465191157 d:\term project cse 102 swift ball\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
+1465053970 d:\term project cse 102 swift ball\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1465204489 d:\term project cse 102 swift ball\game\accessories.h
+	<stdio.h>
+	<stdlib.h>
+	"Screen Generator.h"
+
+1465058845 source:g:\today\term project cse 102 swift ball\imain.cpp
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"iGraphics.h"
+	"Screen Generator.h"
+	"game/accessories.h"
+
+1167588401 g:\today\term project cse 102 swift ball\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<glaux.h>
+
+1465058861 g:\today\term project cse 102 swift ball\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1465058565 g:\today\term project cse 102 swift ball\game\accessories.h
+	<stdio.h>
+	<stdlib.h>
+
+1465102637 source:e:\term project cse 102 swift ball\imain.cpp
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"iGraphics.h"
+	"game/Screen Generator.h"
+	"game/accessories.h"
+
+1465064098 e:\term project cse 102 swift ball\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
+1465072845 e:\term project cse 102 swift ball\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1465076156 e:\term project cse 102 swift ball\game\accessories.h
+	<stdio.h>
+	<stdlib.h>
+
+1465106835 e:\term project cse 102 swift ball\game\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1465233187 d:\term project cse 102 swift ball\game\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1465285504 d:\term project cse 102 swift ball\igraphics2.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
+1465285565 source:d:\term project cse 102 swift ball\picturedemo2.cpp
+	"iGraphics2.h"
+
+1465325730 source:d:\project\term project cse 102 swift ball_merge2\imain.cpp
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"iGraphics2.h"
+	"game/Screen Generator.h"
+	"game/accessories.h"
+
+1465191157 d:\project\term project cse 102 swift ball_merge2\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
+1465325528 d:\project\term project cse 102 swift ball_merge2\game\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1465325592 d:\project\term project cse 102 swift ball_merge2\game\accessories.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Screen Generator.h"
+
+1465292690 d:\project\term project cse 102 swift ball_merge2\igraphics2.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
+1465366364 source:f:\movies\term project cse 102 swift ball_merge2\imain.cpp
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"iGraphics2.h"
+	"game/Screen Generator.h"
+	"game/accessories.h"
+
+1465292692 f:\movies\term project cse 102 swift ball_merge2\igraphics2.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
+1465364391 f:\movies\term project cse 102 swift ball_merge2\game\screen generator.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1465364455 f:\movies\term project cse 102 swift ball_merge2\game\accessories.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Screen Generator.h"
+

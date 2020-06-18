@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tracker_GUI.LogUser">
+   <children>
+      <TableView fx:id="UserTable" layoutX="189.0" layoutY="51.0" prefHeight="298.0" prefWidth="600.0" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="51.0">
+        <columns>
+          <TableColumn fx:id="userIp" prefWidth="234.0" text="IP Address" />
+          <TableColumn fx:id="userPort" minWidth="0.0" prefWidth="180.3333740234375" text="Port Number" />
+            <TableColumn fx:id="userStatus" minWidth="0.0" prefWidth="185.6666259765625" text="Status" />
+        </columns>
+      </TableView>
+      <Button fx:id="userBack" layoutX="442.0" layoutY="356.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Button fx:id="userRefresh" layoutX="179.0" layoutY="356.0" mnemonicParsing="false" onAction="#Refresh" text="Refresh" />
+      <Label layoutX="257.0" layoutY="14.0" text="User Log">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

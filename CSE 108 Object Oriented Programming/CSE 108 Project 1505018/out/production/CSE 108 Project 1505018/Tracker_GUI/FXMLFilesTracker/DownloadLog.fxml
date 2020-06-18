@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tracker_GUI.LogDL">
+   <children>
+      <TableView fx:id="DownloadTable" layoutX="115.0" layoutY="45.0" prefHeight="299.0" prefWidth="600.0" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0">
+        <columns>
+          <TableColumn fx:id="filename" prefWidth="281.6666564941406" text="File Name" />
+          <TableColumn fx:id="ip" prefWidth="195.3333740234375" text="IP Address" />
+            <TableColumn fx:id="port" prefWidth="123.6666259765625" text="Port Number" />
+        </columns>
+      </TableView>
+      <Button fx:id="back" layoutX="438.0" layoutY="356.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Button fx:id="refresh" layoutX="146.0" layoutY="356.0" mnemonicParsing="false" onAction="#Refresh" text="Refresh" />
+      <Label layoutX="237.0" layoutY="7.0" text="Download Log">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

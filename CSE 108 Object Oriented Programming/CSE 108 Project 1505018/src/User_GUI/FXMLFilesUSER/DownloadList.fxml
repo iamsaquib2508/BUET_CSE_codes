@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="User_GUI.ListDownload">
+   <children>
+      <Label layoutX="237.0" layoutY="14.0" prefHeight="25.0" prefWidth="127.0" text="Download Status">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TableView fx:id="DownloadStatusTable" layoutY="48.0" prefHeight="271.0" prefWidth="600.0" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="48.0">
+        <columns>
+          <TableColumn fx:id="filename" prefWidth="310.33331298828125" text="File Downloading " />
+            <TableColumn fx:id="filesize" prefWidth="80.3333740234375" text="Size" />
+          <TableColumn fx:id="status" minWidth="2.666656494140625" prefWidth="209.6666259765625" text="Status" />
+        </columns>
+      </TableView>
+      <Button fx:id="DownloadListBack" layoutX="384.0" layoutY="346.0" mnemonicParsing="false" onAction="#Download_List_Back" prefHeight="25.0" prefWidth="71.0" text="Back" />
+      <Button fx:id="seedButton" layoutX="159.0" layoutY="346.0" mnemonicParsing="false" onAction="#downloadSeed" text="Seed File" />
+   </children>
+</AnchorPane>

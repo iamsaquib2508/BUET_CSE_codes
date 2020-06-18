@@ -1,0 +1,23 @@
+Problem #1
+
+Matrix Multiplication
+
+In this task you need to tackle the problem of multiplying 2 matrices in a multi-threaded fashion. Both the matrixes (A, B) are given in row major order. The multiplication is guaranteed to be possible. Parallelize the task as follows:
+
+·Create a set of worker threads. How many threads should be created - this will be a parameter given by user to your program. Let's call that parameter n and call this set of threads W. (Therefore, n = |W|). It is guaranteed that row(A) * column(B) is a multiple of |W|.
+
+·Write a class called WorkItem. Each WorkItem object holds ith row of A (Ai) and jth column of B (Bj) for all 1 <= i <= row(A) and 1 <= j <= column(B). A WorkItem also stores the indices i and j. So there will be row(A) * column(B) work items. All these work items are put in a queue. This can be done by your main thread.
+
+·A worker thread from W extracts a work item from the queue and performs the summation of multiplication between the Ai and Bj. Each worker performs exactly row(A) * column(B) / |W| number of work. The worker writes the result to the appropriate cell of the resultant matrix.
+
+·Main thread writes the resultant matrix to the console.
+
+Be sure to consider the following:
+
+·Be prudent in using synchronization. Do not use it unnecessarily. Also, use enough synchronization to avoid data corruption.
+
+·Perform wait, notify and joining, wherever you find it appropriate.
+
+·Analyze your code to detect bugs. Ensure good parallelism and integrity of data
+
+·Double check your results with a regular (single threaded) matrix multiplication routine.

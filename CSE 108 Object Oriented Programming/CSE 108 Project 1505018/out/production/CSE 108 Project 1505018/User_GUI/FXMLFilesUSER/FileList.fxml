@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="User_GUI.ListFile">
+   <children>
+      <TableView fx:id="FListTable" layoutX="89.0" layoutY="52.0" prefHeight="344.0" prefWidth="600.0" AnchorPane.bottomAnchor="56.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="filename" prefWidth="411.33331298828125" text="File Name" />
+            <TableColumn fx:id="filesize" prefWidth="121.66668701171875" text="File Size" />
+            <TableColumn fx:id="seeder" prefWidth="66.33331298828125" text="Seeder" />
+        </columns>
+      </TableView>
+      <Button fx:id="Download" layoutX="92.0" layoutY="355.0" mnemonicParsing="false" onAction="#File_List_Download" text="Download" />
+      <Button fx:id="Back" layoutX="455.0" layoutY="355.0" mnemonicParsing="false" onAction="#File_List_Back" text="Back" />
+      <ProgressBar fx:id="progressBar" layoutX="100.0" layoutY="-25.0" prefWidth="200.0" progress="0.0" />
+      <Button fx:id="refresh" layoutX="274.0" layoutY="355.0" mnemonicParsing="false" onAction="#file_list_refresh" text="Refresh" />
+   </children>
+</AnchorPane>
